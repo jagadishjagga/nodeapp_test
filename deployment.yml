@@ -17,5 +17,5 @@ spec:
       containers:
       - name: nodeserver
         image: thetips4you/nodeapp:latest
-        ports:
+        ports: 8080
         - containerPort: 3000
